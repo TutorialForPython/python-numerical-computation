@@ -1,8 +1,8 @@
-# 使用numpy scipy pandas处理复杂的数值计算问题
+# 使用numpy scipy处理复杂的数值计算问题
 
 numpy虽然没在标准库但其地位恐怕高于标准库.它是事实上python做科学计算的根基,许多科学计算工具要么依赖它要么接口定义向其靠拢.而scipy则是numpy的一个补充算法包.
 
-科学计算主要需要的是完成代数方程,矩阵,微分,积分,微分方程,统计,方程求解等方面计算的能力.Python语言本身并不满足所有需求,但是NumPy和SciPy作为python语言很好的补充可以完成这些需求,同时numpy和scipy都是用C和Fortran实现的,因此性能很强,这让python在科学计算领域可以和matlab有抗衡的能力.pandas则通常作为数据与运算间的交互界面来使用,
+科学计算主要需要的是完成代数方程,矩阵,微分,积分,微分方程,统计,方程求解等方面计算的能力.Python语言本身并不满足所有需求,但是NumPy和SciPy作为python语言很好的补充可以完成这些需求,同时numpy和scipy都是用C和Fortran实现的,因此性能很强,这让python在科学计算领域可以和matlab有抗衡的能力.pandas则通常作为数据与运算间的中介,数据通常
 
 
 ## NumPy
